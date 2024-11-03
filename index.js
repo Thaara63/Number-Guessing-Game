@@ -14,7 +14,7 @@ let running = true;
 
 while(running){
 
-    submitBtn.onclick = function() {
+    submitBtn.addEventListener("click",  function() {
         guess = Number(userInput.value);
 
 
@@ -38,8 +38,9 @@ while(running){
         }
 
     }
+        
+    )
     running = false;
-
 }
 
 
